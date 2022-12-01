@@ -1,24 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+
+import axios from 'axios';
+import { useEffect, useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import About from './pages/About';
+import Home from './pages/Home';
+import Lodging from './pages/Lodging';
+
+
+
 
 function App() {
+
+  const [datas, setDatas] = useState([])
+  const [isLoad, setIsLoad] = useState(true)
+
+  useEffect(() => {
+    if (isLoad) {
+      axios.get('data.json')
+        .then((res) => {
+          setDatas(res.data);
+        }).catch((err) => {
+          console.log(err);
+        })
+    }
+    setIsLoad(false)
+  }, [isLoad])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home datas={datas} />}></Route>
+        <Route path='/about' element={<About />}></Route>
+        <Route path='/:productId' element={<Lodging datas={datas} />}></Route>
+      </Routes>
+    </Router>
+
   );
 }
 

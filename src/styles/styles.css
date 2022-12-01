@@ -1,0 +1,27 @@
+@import "./normalize.css";
+@import "./components/navigation.css";
+@import "./components/banner.css";
+@import "./components/card.css";
+@import "./components/page.css";
+
+:root {
+    --color-link: #ff6060;
+    --color-white: white;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+body {
+    max-width: 1240px;
+    margin: 100px auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+body {
+    width: 100%;
+}

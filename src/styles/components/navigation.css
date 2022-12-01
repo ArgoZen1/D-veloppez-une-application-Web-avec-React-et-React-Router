@@ -1,0 +1,35 @@
+header {
+    width: 100%;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    color: #ff6060;
+}
+.link-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    min-width: 15rem;
+    font-size: 1.5rem;
+    color: var(--color-link);
+}
+.logo-kasa {
+    width: 100%;
+    height: auto;
+    max-width: 25%;
+    min-width: 25%;
+    padding-bottom: 3rem;
+}
+.logo-kasa img {
+    width: 100%;
+}
+@media (max-width: 360px) {
+    .link-page {
+        font-size: 1rem;
+        min-width: 10rem;
+    }
+}
