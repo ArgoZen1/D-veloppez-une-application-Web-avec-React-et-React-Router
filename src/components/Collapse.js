@@ -1,0 +1,24 @@
+import React, { useState } from 'react';
+import "../styles/styles.css";
+import arrow from "../images/arrowDown.svg";
+const Collapse = ({ title, description }) => {
+
+    const [open, setOPen] = useState(false);
+
+    return (
+        <div className="collapse" id={`collapse-${title}`}>
+            <div className="header-collapse">
+                <div className="title-collapse">{title}</div>
+                <span className={`arrow-collapse ${open}`} onClick={() => setOPen(!open)}>
+                    <img src={arrow} alt="Ouvrir le texte" />
+                </span>
+            </div>
+            {
+                /* Si le dropdown est à TRUE alors il affichera la description */
+                open && <div className="description-collapse">{description}</div>
+            }
+        </div>
+    );
+};
+
+export default Collapse;

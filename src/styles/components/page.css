@@ -1,3 +1,4 @@
-.singleproduct__title {
-    color: black;
+.singleproduct__title,
+.singleproduct__title2 {
+    color: red;
 }

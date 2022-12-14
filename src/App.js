@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import About from './pages/About';
+import Error404 from './pages/Error404';
 import Home from './pages/Home';
 import Lodging from './pages/Lodging';
 
@@ -34,6 +35,7 @@ function App() {
         <Route path='/' element={<Home datas={datas} />}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path='/:productId' element={<Lodging datas={datas} />}></Route>
+        <Route path="*" element={<Error404 />}></Route>
       </Routes>
     </Router>
 

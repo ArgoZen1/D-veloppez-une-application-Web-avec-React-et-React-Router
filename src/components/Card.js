@@ -2,7 +2,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Card = (props) => {
-    console.log(props)
 
     const { data } = props
     return (

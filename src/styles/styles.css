@@ -3,7 +3,7 @@
 @import "./components/banner.css";
 @import "./components/card.css";
 @import "./components/page.css";
-
+@import "./components/collpase.css";
 :root {
     --color-link: #ff6060;
     --color-white: white;
