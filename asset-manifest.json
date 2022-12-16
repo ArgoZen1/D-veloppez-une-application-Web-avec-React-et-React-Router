@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/css/main.b3c29d74.css",
+    "main.css": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/css/main.fdd186ff.css",
     "main.js": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/js/main.a218bd15.js",
     "static/media/banner.png": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/media/banner.02578bfdc994bd69f521.png",
     "static/media/aboutbannerDesktop.png": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/media/aboutbannerDesktop.0ee601e6c61621f7de50.png",
@@ -12,11 +12,11 @@
     "static/media/stars.svg": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/media/stars.325cf1d54d109e062e0d0468f6412f00.svg",
     "static/media/starsUncol.svg": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/media/starsUncol.06dccca447400012db124c595a41e219.svg",
     "static/media/bannergrey.svg": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/media/bannergrey.3cae5247882ff06cc91226130a17039b.svg",
-    "main.b3c29d74.css.map": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/css/main.b3c29d74.css.map",
+    "main.fdd186ff.css.map": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/css/main.fdd186ff.css.map",
     "main.a218bd15.js.map": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/js/main.a218bd15.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3c29d74.css",
+    "static/css/main.fdd186ff.css",
     "static/js/main.a218bd15.js"
   ]
 }
