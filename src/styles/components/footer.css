@@ -1,0 +1,16 @@
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 3rem;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 5rem;
+    width: 95%;
+}
+.footer-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

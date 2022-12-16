@@ -4,6 +4,11 @@
 @import "./components/card.css";
 @import "./components/page.css";
 @import "./components/collpase.css";
+@import "./components/slider.css";
+@import "./components/error404.css";
+@import "./components/lodging.css";
+@import "./components/footer.css";
+
 :root {
     --color-link: #ff6060;
     --color-white: white;
@@ -21,6 +26,8 @@ body {
     margin: 100px auto;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    width: 100%;
+    overflow-x: hidden;
 }
 body {
     width: 100%;

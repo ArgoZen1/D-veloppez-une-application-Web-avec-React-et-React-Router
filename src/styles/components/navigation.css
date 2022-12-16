@@ -11,12 +11,13 @@ li {
 }
 .link-page {
     display: flex;
-    justify-content: space-between;
-    padding: 1rem;
+    justify-content: space-around;
+    height: 2rem;
     min-width: 15rem;
     font-size: 1.5rem;
     color: var(--color-link);
 }
+
 .logo-kasa {
     width: 100%;
     height: auto;

@@ -14,10 +14,16 @@ const Navigation = () => {
                         </NavLink>
                     </div>
                     <ul className='link-page'>
-                        <NavLink to='/' className={(nav) => (nav.isActive ? "nav-active" : "")}>
+                        <NavLink style={({ isActive }) => ({
+                            borderBottom: isActive ? "#ff6060 solid 2px" : ''
+                        })}
+                            to='/' className={(nav) => (nav.isActive ? "nav-active" : "")}>
                             <li>accueil</li>
                         </NavLink>
-                        <NavLink to='/about' className={(nav) => (nav.isActive ? "nav-active" : "")}>
+                        <NavLink style={({ isActive }) => ({
+                            borderBottom: isActive ? "#ff6060 solid 2px" : ''
+                        })}
+                            to='/about' className={(nav) => (nav.isActive ? "nav-active" : "")}>
                             <li>A propos</li>
                         </NavLink>
                     </ul>

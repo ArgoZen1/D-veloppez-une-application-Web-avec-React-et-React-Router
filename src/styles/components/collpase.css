@@ -2,6 +2,15 @@
     border-radius: 5px;
     margin-bottom: 35px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    padding: 1rem;
 }
 
 .header-collapse {
@@ -19,6 +28,8 @@
     height: 50px;
     line-height: 50px;
     margin: 5px 10px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .arrow-collapse {
@@ -41,8 +52,14 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     color: #ff6060;
-    height: 75%;
+    height: 100%;
     margin-top: -10px;
-    min-height: 100px;
+    min-height: 200px;
     padding: 25px 10px 10px 10px;
+    font-size: 24px;
+    width: 100%;
+}
+.imgAbout {
+    border-radius: 25px;
+    overflow: hidden;
 }
