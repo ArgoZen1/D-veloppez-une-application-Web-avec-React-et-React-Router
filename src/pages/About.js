@@ -11,6 +11,7 @@ const About = () => {
             <div className='imgAbout'>
                 <img src={AboutBanner} alt="About banner" />
             </div>
+            {/* ici nous recuperons les propriétés du composants Collapse afin d'y mettre le titre et la description */}
             <div className="APropos">
                 <Collapse title="Fiabilité" description="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes." />
                 <Collapse title="Respect" description="La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme." />

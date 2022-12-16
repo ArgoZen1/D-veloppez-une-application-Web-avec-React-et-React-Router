@@ -2,7 +2,9 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import KasaLogo from '../images/kasa.svg';
 
-
+/*
+** ici on retrouve la navigation des liens "accueil et A propos"
+*/
 const Navigation = () => {
     return (
         <>

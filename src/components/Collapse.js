@@ -4,7 +4,9 @@ import arrow from "../images/arrowDown.svg";
 const Collapse = ({ title, description }) => {
 
     const [open, setOPen] = useState(false);
-
+    /*
+    ** ici on va gerer l'ouverture des dropwdown, si c'est à false alors qu'on on click il sera à true et ouvrira le texte
+    */
     return (
         <div className="collapse" id={`collapse-${title}`}>
             <div className="header-collapse">

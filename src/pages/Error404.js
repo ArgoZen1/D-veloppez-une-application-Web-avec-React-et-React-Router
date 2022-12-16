@@ -2,6 +2,10 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Navigation from '../components/Navigation';
 
+/*
+** page error si aucun id ne correspond
+*/
+
 const Error404 = () => {
     return (
 

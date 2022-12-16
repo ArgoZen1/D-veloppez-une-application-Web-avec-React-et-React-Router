@@ -1,5 +1,9 @@
 import React from 'react';
 import kasaWhite from '../images/kasaWhite.svg'
+
+/*
+** le composant du footer qu'on peut réutiliser partout.
+*/
 const Footer = () => {
     return (
         <div className='footer-align'>

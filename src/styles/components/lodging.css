@@ -10,7 +10,6 @@
 }
 .tags {
     display: flex;
-    justify-content: space-between;
     width: 100%;
     align-items: center;
     margin-top: 1rem;
@@ -63,14 +62,14 @@
     display: none;
 }
 
-.dog2 {
+.container-collapse {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
 @media (max-width: 791px) {
-    .dog2 {
+    .container-collapse {
         flex-direction: column;
     }
     .block-host1 {
