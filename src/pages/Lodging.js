@@ -17,7 +17,7 @@ const Lodging = (props) => {
     if (!product) {
         return <Error404 />;
     }
-    const { title, location, rating, host, equipments, description, pictures, cover, tags } =
+    const { title, location, rating, host, equipments, description, tags } =
         product;
 
     console.log(tags)
@@ -36,9 +36,7 @@ const Lodging = (props) => {
         <div>
             <Navigation />
             <Slider images={product?.pictures} />
-            {/* <div>
-                <img src={cover} alt="image fiche logement"></img>
-            </div> */}
+
             <div className="block-h1-host">
                 <div>
                     <h1 className="singleproduct__title">{title}</h1>
@@ -49,13 +47,14 @@ const Lodging = (props) => {
                         </li>
                     )}</ul>
                 </div>
+
                 <div className="block-host1">
                     <div className='name-firstname'>
                         <p>{lastName}</p>
                         <p>{name}</p>
                     </div>
                     <div className='container-img1'>
-                        <img src={host.picture}></img>
+                        <img src={host.picture} alt="l'auteur"></img>
                     </div>
                 </div>
             </div>
@@ -74,10 +73,11 @@ const Lodging = (props) => {
 
                     </div>
                     <div className='container-img2'>
-                        <img src={host.picture}></img>
+                        <img src={host.picture} alt="l'auteur"></img>
                     </div>
                 </div>
             </div>
+
             <div className='dog2'>
                 <Collapse title="Description" description={description} />
                 <Collapse title="Equipements" description={equipments.map((equipment, index) =>

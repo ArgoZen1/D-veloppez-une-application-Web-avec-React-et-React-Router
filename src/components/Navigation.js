@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import KasaLogo from '../images/kasa.svg'
+import KasaLogo from '../images/kasa.svg';
 
 
 const Navigation = () => {

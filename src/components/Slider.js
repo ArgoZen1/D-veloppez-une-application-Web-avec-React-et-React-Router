@@ -18,7 +18,9 @@ function Slider({ images }) {
 
     const imgNext = () => {
         if (showPicture === numberImg - 1) {
-            setShowPicture(numberImg = 0);
+            numberImg = 0
+
+            setShowPicture(numberImg);
 
         } else {
             setShowPicture(showPicture + 1);
