@@ -12,7 +12,7 @@ import Lodging from './pages/Lodging';
 function App() {
 
   const [datas, setDatas] = useState([])
-  const [isLoad, setIsLoad] = useState(true)
+
   /*
   ** ici on utilise un useEffect pour recuperer la data après le rendu (mise à jour du DOM)
   ** il s'executera après chaque rendu ce qui garantie que le DOM a été mis à jour au moment ou il exécute les effets
@@ -26,10 +26,8 @@ function App() {
       }).catch((err) => {
         console.log(err);
       })
-
-    setIsLoad(false)
     // pour que le useEffect ne s'execute qu'une seule fois. 
-  }, [isLoad])
+  }, [])
 
   return (
 

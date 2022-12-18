@@ -14,6 +14,7 @@ const Banner = () => {
                 <img className='banner' src={banner} alt="une forêt près de la mer" />
                 <img className='banner-grey' src={bannergrey} alt="fond gris par dessus" />
             </div>
+
         </>
 
     );
