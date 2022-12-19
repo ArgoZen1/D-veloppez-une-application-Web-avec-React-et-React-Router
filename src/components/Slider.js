@@ -10,7 +10,6 @@ function Slider({ images }) {
     let [showPicture, setShowPicture] = useState(0);
     // on recupere le nombre d'images
     let numberImg = images.length;
-    console.log(numberImg)
     /*
     ** si l'image est à 0 (premiere image) alors on fait -1 pour aller à l'image precedente
     ** si l'image n'est pas à 0 alors on fait un setShowPicture(showPicture - 1) pour retourner à l'image precedente
