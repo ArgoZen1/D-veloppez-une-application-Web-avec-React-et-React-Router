@@ -26,6 +26,7 @@ function App() {
       }).catch((err) => {
         console.log(err);
       })
+
     // pour que le useEffect ne s'execute qu'une seule fois. 
   }, [])
 

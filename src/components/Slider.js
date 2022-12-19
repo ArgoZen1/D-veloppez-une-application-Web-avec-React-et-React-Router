@@ -40,24 +40,40 @@ function Slider({ images }) {
     };
 
     return (
+
         <div className="carrousel">
-            {   // au click sur la fleche précedente on fait défiler les images
-                <img className="arrow arrow-left" src={arrowRight} alt="previous" onClick={imgPrevious} />
-            }
+
+            {/* au click sur la fleche précedente on fait défiler les images */}
+            {/* si numberImg est superieur à 1 on affiche les flêches */}
+            {numberImg > 1 ? (
+                <>
+                    <img className="arrow arrow-left" src={arrowRight} alt="previous" onClick={imgPrevious} />
+                </>
+            ) : null}
             {   /*
                 ** ici on va map sur le tableau d'images afin de recuperer chaque image une par une.
                 ** on utilise l'index pour cibler la bonne image, sinon nous aurons toutes les images d'afficher
                 */
+
                 images.map((image, index) => {
                     return (
                         <img key={index} className={index === showPicture ? 'carrousel-img actif' : 'carrousel-img'} src={image} alt="Lodging" />
                     )
                 })
             }
-            {   // au click sur la fleche suivante on fait défiler les images
-                <img className="arrow arrow-right" src={arrowRight} alt="next" onClick={imgNext} />
-            }
+            {   /* au click sur la fleche suivante on fait défiler les images */}
+            {numberImg > 1 ? (
+                <>
+                    <img className="arrow arrow-right" src={arrowRight} alt="next" onClick={imgNext} />
+                </>
+            ) : null}
+
+
+
+
+
         </div>
+
     );
 }
 
