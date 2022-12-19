@@ -46,9 +46,9 @@ function Slider({ images }) {
             {/* au click sur la fleche précedente on fait défiler les images */}
             {/* si numberImg est superieur à 1 on affiche les flêches */}
             {numberImg > 1 ? (
-                <>
-                    <img className="arrow arrow-left" src={arrowRight} alt="previous" onClick={imgPrevious} />
-                </>
+
+                <img className="arrow arrow-left" src={arrowRight} alt="previous" onClick={imgPrevious} />
+
             ) : null}
             {   /*
                 ** ici on va map sur le tableau d'images afin de recuperer chaque image une par une.
@@ -63,9 +63,9 @@ function Slider({ images }) {
             }
             {   /* au click sur la fleche suivante on fait défiler les images */}
             {numberImg > 1 ? (
-                <>
-                    <img className="arrow arrow-right" src={arrowRight} alt="next" onClick={imgNext} />
-                </>
+
+                <img className="arrow arrow-right" src={arrowRight} alt="next" onClick={imgNext} />
+
             ) : null}
 
 
