@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.c02169fc.css",
-    "main.js": "/static/js/main.ff08f28f.js",
-    "static/media/banner.png": "/static/media/banner.02578bfdc994bd69f521.png",
-    "static/media/aboutbannerDesktop.png": "/static/media/aboutbannerDesktop.0ee601e6c61621f7de50.png",
-    "static/media/kasa.svg": "/static/media/kasa.a3c0648d784a63505d774a39033fe2aa.svg",
-    "static/media/kasaWhite.svg": "/static/media/kasaWhite.30709944e3f2fe39ad48c4a218f3ec5c.svg",
-    "index.html": "/index.html",
-    "static/media/arrowDown.svg": "/static/media/arrowDown.6be86a8ff7772b42b056a30c2d82b448.svg",
-    "static/media/arrowRight.svg": "/static/media/arrowRight.224e07798ade6bda6e2572adcd9fc9c3.svg",
-    "static/media/stars.svg": "/static/media/stars.325cf1d54d109e062e0d0468f6412f00.svg",
-    "static/media/starsUncol.svg": "/static/media/starsUncol.06dccca447400012db124c595a41e219.svg",
-    "static/media/bannergrey.svg": "/static/media/bannergrey.3cae5247882ff06cc91226130a17039b.svg",
-    "main.c02169fc.css.map": "/static/css/main.c02169fc.css.map",
-    "main.ff08f28f.js.map": "/static/js/main.ff08f28f.js.map"
+    "main.css": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/css/main.c02169fc.css",
+    "main.js": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/js/main.44c17be7.js",
+    "static/media/banner.png": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/media/banner.02578bfdc994bd69f521.png",
+    "static/media/aboutbannerDesktop.png": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/media/aboutbannerDesktop.0ee601e6c61621f7de50.png",
+    "static/media/kasa.svg": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/media/kasa.a3c0648d784a63505d774a39033fe2aa.svg",
+    "static/media/kasaWhite.svg": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/media/kasaWhite.30709944e3f2fe39ad48c4a218f3ec5c.svg",
+    "index.html": "/D-veloppez-une-application-Web-avec-React-et-React-Router/index.html",
+    "static/media/arrowDown.svg": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/media/arrowDown.6be86a8ff7772b42b056a30c2d82b448.svg",
+    "static/media/arrowRight.svg": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/media/arrowRight.224e07798ade6bda6e2572adcd9fc9c3.svg",
+    "static/media/stars.svg": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/media/stars.325cf1d54d109e062e0d0468f6412f00.svg",
+    "static/media/starsUncol.svg": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/media/starsUncol.06dccca447400012db124c595a41e219.svg",
+    "static/media/bannergrey.svg": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/media/bannergrey.3cae5247882ff06cc91226130a17039b.svg",
+    "main.c02169fc.css.map": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/css/main.c02169fc.css.map",
+    "main.44c17be7.js.map": "/D-veloppez-une-application-Web-avec-React-et-React-Router/static/js/main.44c17be7.js.map"
   },
   "entrypoints": [
     "static/css/main.c02169fc.css",
-    "static/js/main.ff08f28f.js"
+    "static/js/main.44c17be7.js"
   ]
 }
