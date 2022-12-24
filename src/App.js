@@ -1,7 +1,7 @@
 
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 import About from './pages/About';
 import Error404 from './pages/Error404';
 import Home from './pages/Home';
@@ -35,12 +35,14 @@ function App() {
 
     <Router>
       <Routes>
+
         <Route path='/' element={<Home datas={datas} />}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path='/:productId' element={<Lodging datas={datas} />}></Route>
-        <Route path='*' element={<Error404 />}></Route>
+        <Route path=':productId' errorElement={<Error404 />}></Route>
       </Routes>
     </Router>
+
 
   );
 }
