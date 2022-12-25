@@ -35,7 +35,6 @@ function App() {
 
     <Router>
       <Routes>
-
         <Route path='/' element={<Home datas={datas} />}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path='/:productId' element={<Lodging datas={datas} />}></Route>
