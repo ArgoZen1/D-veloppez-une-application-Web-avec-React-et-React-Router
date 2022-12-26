@@ -26,7 +26,14 @@
 }
 .width-container h2 {
     position: absolute;
-    bottom: 10%;
+    bottom: 6%;
     left: 5%;
     color: aliceblue;
+    font-size: 1.3rem;
+}
+@media (max-width: 719px) {
+    .width-container {
+        max-width: 100%;
+        min-width: 100%;
+    }
 }

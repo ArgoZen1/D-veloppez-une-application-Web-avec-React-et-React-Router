@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div className='footer-align'>
             <footer>
-                <h2><img src={kasaWhite}></img></h2>
+                <h2><img src={kasaWhite} alt="logo Kasa footer"></img></h2>
                 <p>© 2020 Kasa. All rights reserved</p>
             </footer>
         </div>

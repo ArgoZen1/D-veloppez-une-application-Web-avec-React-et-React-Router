@@ -7,6 +7,7 @@
 @import "./components/error404.css";
 @import "./components/lodging.css";
 @import "./components/footer.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 :root {
     --color-link: #ff6060;
@@ -20,14 +21,16 @@
     list-style-type: none;
     text-decoration: none;
 }
+html {
+    font-size: 62.5%;
+    font-family: "Montserrat", sans-serif;
+}
 body {
     max-width: 1240px;
     margin: 100px auto;
+    margin-top: 50px;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     width: 100%;
     overflow-x: hidden;
-}
-body {
-    width: 100%;
 }

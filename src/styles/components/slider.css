@@ -5,6 +5,14 @@
     position: relative;
     width: 100%;
 }
+.position {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 500;
+}
 
 .arrow {
     position: absolute;

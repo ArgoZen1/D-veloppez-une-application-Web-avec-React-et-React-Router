@@ -3,9 +3,9 @@ import Card from './Card';
 
 
 const LocationData = (props) => {
-    // on defini une constante datas qui sera egale à la props passée en parametre
-    //props (data) que l'on recupere du fichier App.js
+    // on recupere la data via les props passées en parametre dans le composant Home 
     const { datas } = props
+    console.log(datas)
     /*
     ** on va map sur la data pour affichier les images sur la page home
     */
@@ -13,8 +13,8 @@ const LocationData = (props) => {
         <>
             <div className="data-card">
                 {
-                    datas.map((data, index) => (
-                        <div key={index}>
+                    datas.map((data) => (
+                        <div key={data.id}>
                             <Card data={data} />
                         </div>
                     ))}

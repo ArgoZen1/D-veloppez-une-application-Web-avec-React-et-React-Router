@@ -10,6 +10,7 @@ import Navigation from '../components/Navigation';
 */
 
 const Home = (props) => {
+    // on va recuperer la data via les props afin de l'envoyer au composant LocationData 
     const { datas } = props
 
     return (
